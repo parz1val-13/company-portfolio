@@ -2,40 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Company Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Company Name</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a2e0c4e7df.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-white text-gray-800 font-sans">
-  <!-- NAVBAR -->
   <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="index.html" class="text-2xl font-bold text-blue-700">Company Name</a>
+      <a href="index.html" class="flex items-center space-x-2">
+        <img src="assets/images/logo-placeholder.png" alt="Logo" class="h-8 w-8 object-contain">
+        <span class="text-2xl font-bold text-blue-700">Company Name</span>
+      </a>
       <div class="space-x-6">
-        <a href="about.html" class="hover:text-blue-600">About</a>
-        <a href="services.html" class="hover:text-blue-600">Services</a>
-        <a href="clients.html" class="hover:text-blue-600">Clients</a>
-        <a href="projects.html" class="hover:text-blue-600">Projects</a>
-        <a href="contact.html" class="hover:text-blue-600">Contact</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="clients.html">Clients</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
       </div>
     </div>
   </nav>
-
-  <!-- PAGE CONTENT WILL GO HERE -->
-
-  <!-- FOOTER -->
-  <footer class="bg-blue-900 text-white py-8 mt-16">
-    <div class="max-w-6xl mx-auto text-center">
-      <p>&copy; 2025 Company Name. All rights reserved.</p>
-    </div>
+  <section class="text-center py-20 bg-blue-900 text-white">
+    <h1 class="text-4xl font-bold mb-4">Welcome to Our Company</h1>
+    <p class="text-lg max-w-xl mx-auto">We provide innovative engineering, construction, and consulting services across Africa.</p>
+  </section>
+  <footer class="bg-blue-900 text-white py-6 text-center mt-20">
+    <p>&copy; 2025 Company Name. All rights reserved.</p>
   </footer>
-
-  <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  <script>AOS.init();</script>
 </body>
 </html>
