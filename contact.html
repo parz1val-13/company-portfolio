@@ -1,1 +1,48 @@
-<!-- Contact Page Content -->
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Company Name</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-2">
+        <img src="assets/images/logo-placeholder.png" alt="Logo" class="h-8 w-8 object-contain">
+        <span class="text-2xl font-bold text-blue-700">Company Name</span>
+      </a>
+      <div class="space-x-6">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="clients.html">Clients</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="font-semibold text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="text-center py-20 bg-blue-900 text-white" data-aos="fade-down">
+    <h1 class="text-4xl font-bold mb-4">Contact Us</h1>
+    <p class="text-lg max-w-xl mx-auto">We're happy to answer any questions or start a new project together.</p>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-6 py-16" data-aos="fade-up">
+    <form class="bg-white p-8 rounded-xl shadow-lg space-y-6">
+      <input type="text" placeholder="Your Name" class="w-full border rounded p-3" required>
+      <input type="email" placeholder="Your Email" class="w-full border rounded p-3" required>
+      <textarea placeholder="Your Message" rows="5" class="w-full border rounded p-3" required></textarea>
+      <button class="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-800 transition">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="bg-blue-900 text-white py-6 text-center mt-20">
+    <p>&copy; 2025 Company Name. All rights reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

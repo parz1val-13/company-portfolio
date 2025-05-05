@@ -1,1 +1,63 @@
-<!-- Projects Page Content -->
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Company Name</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-2">
+        <img src="assets/images/logo-placeholder.png" alt="Logo" class="h-8 w-8 object-contain">
+        <span class="text-2xl font-bold text-blue-700">Company Name</span>
+      </a>
+      <div class="space-x-6">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="clients.html">Clients</a>
+        <a href="projects.html" class="font-semibold text-blue-600">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="text-center py-20 bg-blue-900 text-white" data-aos="fade-down">
+    <h1 class="text-4xl font-bold mb-4">Our Key Projects</h1>
+    <p class="text-lg max-w-2xl mx-auto">Take a look at some of the impactful infrastructure and consulting projects we've delivered.</p>
+  </section>
+
+  <section class="max-w-6xl mx-auto py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up">
+      <img src="assets/images/service-placeholder.jpg" alt="Project 1" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Rural Road Construction</h3>
+        <p class="text-sm text-gray-600">Upgraded 50+ km of rural roads in East Africa.</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+      <img src="assets/images/service-placeholder.jpg" alt="Project 2" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Bridge Feasibility Study</h3>
+        <p class="text-sm text-gray-600">Consulted on structural design and materials for a 250m span bridge.</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+      <img src="assets/images/service-placeholder.jpg" alt="Project 3" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Water Sanitation System</h3>
+        <p class="text-sm text-gray-600">Designed urban water purification network in capital city.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-blue-900 text-white py-6 text-center mt-20">
+    <p>&copy; 2025 Company Name. All rights reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
